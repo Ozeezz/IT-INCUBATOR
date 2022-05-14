@@ -1,5 +1,7 @@
 .app-wrapper {
     display: grid;
+    margin: 0 auto;
+    width: 1200px;
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
     /*grid-gap: 10px;*/
@@ -8,7 +10,7 @@
 
 .header {
     grid-area: header;
-    background-color: green;
+    /*background-color: green;*/
 }
 
 .header img {
@@ -17,7 +19,7 @@
 
 .nav {
     grid-area: nav;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 
 .content {
