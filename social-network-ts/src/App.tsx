@@ -7,8 +7,8 @@ const App = () => {
         <BrowserRouter>
             <div className="App">
                 APP HELLO
-                {/*<Route path="/hello" render={() => <HelloMessage message={"Hello friends"}/>}/>*/}
-                {/*<Route path="/bye" render={<ByeMessage message={"Bye samurai"}/>}/>*/}
+                <Route path={"/hello"} render={() => <HelloMessage message={"Hello friends"}/>}/>
+                <Route path={"/bye"} render={() => <ByeMessage message={"Bye samurai"}/>}/>
             </div>
         </BrowserRouter>
     );
